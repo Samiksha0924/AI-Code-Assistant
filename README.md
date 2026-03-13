@@ -1,4 +1,4 @@
-# Samiksha RD Assignment – Code Execution Chatbot
+# AI Code Assistant– Code Execution Chatbot
 
 ## Project Overview
 This project is a Code Execution Chatbot where users can:
