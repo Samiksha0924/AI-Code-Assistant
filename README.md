@@ -9,7 +9,12 @@ This project is a Code Execution Chatbot where users can:
 - View execution output and errors in real time
 
 The application is designed to support multiple users simultaneously, with each request handled independently by the backend.
-
+## Tech Stack
+Frontend: React.js  
+Backend: Node.js, Express  
+Editor: Monaco Editor  
+Execution Engine: Python  
+Communication: REST APIs  
 ## Features Implemented
 
 ### Chat Functionality
@@ -77,13 +82,13 @@ npm start
 
 App runs on http://localhost:3000
 
-## How to Use
-1. Open the app
-2. Type "let’s code" in chat
-3. Select Python
-4. Write code
-5. Click Validate or Run
-6. View output
+## System Architecture
+1. User sends a chat message through the frontend.
+2. Backend server processes the request using Node.js.
+3. If the user triggers "let’s code", the system loads the Monaco code editor.
+4. Code execution requests are sent to the backend API.
+5. Python environment executes the code securely with timeout protection.
+6. Execution results are returned to the frontend output panel.
 
 ## References
 - React.js
